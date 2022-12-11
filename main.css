@@ -9,7 +9,7 @@
 }
 
 
-
+/* THE BASICS */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -42,6 +42,8 @@ h1,
 .attribution {
   color: var(--header-font-color);
   font-size: 14px;
+  margin-top: 15%;
+  text-align: center;
 }
 
 a {
@@ -52,4 +54,40 @@ a {
 
 a:hover {
   color: var(--eth-color);
+}
+
+.icon-view {
+  display: none;
+}
+
+
+/* MAIN BODY AND INSIDE */
+.everything {
+  min-width: 375px;
+  max-width: 375px;
+  background-color: var(--card-color);
+  margin: auto;
+  border-radius: 0.8rem;
+  transform: translateY(25%);
+}
+
+.main-image {
+  max-width: 325px;
+  border-radius: 0.5rem;
+  margin-top: 7%;
+  margin-left: 7%;
+}
+
+.avatar {
+  width: 10%;
+  border: 1px solid var(--header-font-color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+hr {
+  width: 80%;
+  text-align: center;
+  opacity: 0.5;
+  height: 1px;
 }

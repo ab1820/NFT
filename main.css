@@ -47,7 +47,7 @@ h1,
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--para-font-color);
   cursor: pointer;
 }
@@ -83,11 +83,59 @@ a:hover {
   border: 1px solid var(--header-font-color);
   border-radius: 50%;
   display: inline-block;
+  margin-left: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 1.2rem;
+  vertical-align: middle;
 }
 
 hr {
-  width: 80%;
-  text-align: center;
+  width: 85%;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   opacity: 0.5;
   height: 1px;
+}
+
+h1 {
+  font-size: 1.3rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.paragraph {
+  line-height: 1.5;
+  width: 80%;
+  margin-left: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.eth-svg {
+  margin-left: 1.5rem;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+.eth {
+  vertical-align: middle;
+}
+
+.clock {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5.6rem;
+}
+
+.days {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.3rem;
+}
+
+.author {
+  display: inline-block;
+  margin-top: -1.1rem;
+  vertical-align: middle;
 }

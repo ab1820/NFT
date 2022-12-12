@@ -52,12 +52,12 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  color: var(--eth-color);
-}
-
 .icon-view {
   display: none;
+  position: absolute;
+  top: 9.5rem;
+  left: 9.5rem;
+  z-index: 3;
 }
 
 
@@ -138,4 +138,22 @@ h1 {
   display: inline-block;
   margin-top: -1.1rem;
   vertical-align: middle;
+}
+
+
+/* HOVER EFFECTS */
+.main-image:hover {
+  background-color: var(--eth-color);
+  background: url(./images/icon-view.svg);
+  cursor: pointer;
+}
+
+h1:hover,
+.name:hover {
+  color: var(--eth-color);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--eth-color);
 }
